@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Shield, Eye, EyeOff, Download, AlertTriangle, CheckCircle, XCircle, Key, User, Calendar, Heart } from 'lucide-react';
+import { Shield, Eye, EyeOff, Download, AlertTriangle, CheckCircle, XCircle,  User, Calendar, Heart } from 'lucide-react';
 
 const PasswordSecuritySuite = () => {
   const [password, setPassword] = useState('');
